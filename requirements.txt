@@ -7,3 +7,4 @@ pandas
 numpy
 lxml
 networkx
+firebase-admin==6.2.0

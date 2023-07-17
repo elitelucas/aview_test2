@@ -6,14 +6,14 @@ from firebase_admin import firestore
 
 def hello(event, context):
     # Initialize the Firestore app with the service account key
-    cred = credentials.Certificate('./firebase.json')  # Replace with the path to your service account key file
+    cred = credentials.Certificate('./firebase.json')
     firebase_admin.initialize_app(cred)
 
     # Get a reference to the Firestore database
     db = firestore.client()
 
     # Create a new document in a collection
-    collection_ref = db.collection('dogs')  # Replace 'your-collection' with the actual collection name
+    collection_ref = db.collection('dogs')  
 
     # Fetch data from the API
     url = 'https://api.thedogapi.com/v1/breeds'  # Replace with the URL of the API
@@ -40,7 +40,7 @@ def hello(event, context):
         print('Error occurred while fetching data:', response.status_code)   
 
     body = {
-        "message": "Python AWS Lambda"
+        "message": "success"
     }
 
     response = {
