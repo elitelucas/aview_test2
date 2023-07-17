@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "calcium-hope-310510",
+  "private_key_id": "3259a86ac38d01ce473a13f05cfea86ef0414ae5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC349DTZ6+Y5Q1R\n8dqSvhzWahEbu33WupIMknv3Q65AKvwNN/3jNJ91UMV6yEOXxZrhfjWOPQ8QcWeM\nGJ2fdRAlpLGKDHiQMqaQTANr5txT0teeZHl4jZNIBeMD48w+0T7aUpKVz4s/5q8Q\n/VPIEenlnDyMSVsAgEI+bBLfXmh+fzXU+V3jsyZOJFkDl9JiFCrc5pcokfvf8P8b\ndwN3JryCN/HV3uXi6o2UK77wYJO9kUb4h4ZzYc39tQS3gaZl+W6Trp+qrPoYrGvF\nVKugyph4IQNC4euNmflsx5rr9QqisFzBeifGdi3dSQ/cvupMzKOg0n8KSCGW8VNb\nujJFxhNlAgMBAAECggEAAtTGFUsmX/M+1kEj/Vhh90cgxk2HrXOn5funXvIyz5gZ\n01ZGWWYpAlRhBffpWn/XV5tq1arI/ZbRYk3Kt3bE7d9wQFDa1lWBTP1unA2s3LmF\nSlH/sMR1PQmiKiAqt9je39ufmCDe4vf5QAi2boEgGcHjCMHkXcibvHxLehbpAvGJ\nt81RESP4QFM/C4ErtnlqSh7qerhhS9yc7as2Z4xnJnnczqn/QdtYSsYNwuf6OkBv\nr2OIkOSW32uxtuW9k4+UJVD/ZYur0E5wHEHrU+b3nH8Ol2ayJrq+qvMxZdarNA8K\np/Kahx2/x/sWSDHt7SHowogoFt+zwBg1R1h4U3SGoQKBgQDzon+3LVY2zDoJTgJf\nqEkqSZSIWm8Lq2+qOvJZuJf3odXtIMOOJ8fcGIQvwKMPsMgejEjDjI9dKRniEhg0\nfVUj6SZCDGszZbqm9zuXNQDVOI6/azJbj8Ex2nrL24bjgRhVfEmfCB5uF7H4Fks2\ndxcT3Xx/eJe2uZxUhqyRECEOuQKBgQDBORAjbMaiz20inGk/DsFrwveVHRP2/nyQ\nbc12C/13RRrn52Ru2zRqaY2LZBJ6GMu2CoJC65ptyImYOHO6JDnOHjDoAnUwgSbx\niVVQ2dOG//j/ef3SGosKoU39O4uSxrOAjKv5NgbW7bX6x6q6am3Jf51jhpQYtkUr\nmX5c+pD0DQKBgBFtflVMGO6yjTQ9ME5Ha3Rq7wUR8v+Ss9opfUyNt9Eu8m6T+Wkh\nz1ofJtWDoiZtLuOAhXP3ignP9toFEVYv4PdApkvzN3flvwRSiyC12elmsk9fC6sh\nDWDTkBUlDvEXOvZifaGyovqdF033ykmLG0uAfHdh2PhpLpWdTJrT3ImBAoGBAIne\nV3+PW+RLsQljJU2TD7v+b338M4SnbOX5EwNJ5t81dc9GscjPrATJr+9nxi9Mhf4s\nXWm2hogS8OqmTRziQESsEiVZq5iibtElNrTr2ByZhGd1+f/yZId/NRCdbieak/YD\naan2PMca8iAwW8eLrS57WifrnLxNQemsKhfZyZf5AoGBAN/zKGkwM+ivh0s/2HA4\nzTpKp3fJkhShqB0d4/NiaIZ/YeJa11hmuE3HeBAjAQEAf5YiJM5EFQ/Auuga9vJ6\ngKhcz/zMFB7devUpfiTTMhkuUmo+fw468tVzhzJYyLV74YGV1rlgu3l2oRXkJcEc\nN0CksShJVe6hOwlSR3qnnsx1\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-5ls5y@calcium-hope-310510.iam.gserviceaccount.com",
+  "client_id": "118284477649180262488",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-5ls5y%40calcium-hope-310510.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

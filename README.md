@@ -23,5 +23,3 @@ A boilerplate for Python AWS Lambda Docker Serverless
 * RUN ` sls plugin install -n serverless-python-requirements` 
 * `sls deploy -v` 
 
-![Python AWS Lambda Docker Serverless](resources/python-lambda.png "Python AWS Lambda Docker Serverless")
-
