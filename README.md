@@ -1,12 +1,21 @@
-# Python AWS Lambda Docker Serverless
+# Aview International Round2 Code Challenge
 
-A boilerplate for Python AWS Lambda Docker Serverless
+### Objective
+
+It is a Python-based serverless application using AWS Lambda that fetches data from a public API, processes the data, and stores it in a NoSQL database hosted in the Google Cloud. The application is containerized using Docker.
+* It is AWS Lambda Python application.
+* It uses [Serverless Framework](https://www.serverless.com/framework/docs) 
+* Fetch data from [DogAPI](https://api.thedogapi.com)
+* Save data into **Firebase** on **Google Cloud**
+* It uses **Docker** to containerize application.
+
+### How to install
 
 ##### Installation steps
 * Go to https://console.aws.amazon.com/iam/home?region=us-east-1#/security_credentials
 * Create `New Access Key`
 * Clone this repo.
-* `cd AWS-Lambda-Python-Docker-Serverless`
+* `cd PROJECT_FOLDER_NAME`
 * `touch .env.docker`
 * Update `aws_access_key_id` and `aws_secret_access_key`
 
@@ -23,5 +32,7 @@ A boilerplate for Python AWS Lambda Docker Serverless
 * RUN ` sls plugin install -n serverless-python-requirements` 
 * `sls deploy -v` 
 
+### Results
+Stored data in Firebase
 ![Python AWS Lambda Docker Serverless](resources/Screenshot_198.png "Python AWS Lambda Docker Serverless")
 

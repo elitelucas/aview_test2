@@ -23,10 +23,8 @@ def hello(event, context):
     if response.status_code == 200:
         api_data = response.json()  # Use a different variable name here
         for i in range(0, 5):
-            print(str(i) + "th dogs------")
+            print("------#" + str(i+1) + " dog------")
             print(api_data[i].get('name', ''))
-            print(api_data[i].get('bred_for', ''))
-            print(api_data[i].get('temperament', ''))
             # Data to be added
             data = {
                 'name': api_data[i].get('name', ''),
@@ -36,16 +34,17 @@ def hello(event, context):
             # Add the data to Firestore
             doc_ref = collection_ref.add(data)
             print('Document written with ID:', doc_ref[1].id)
+        
+        message = "success"
     else:
         print('Error occurred while fetching data:', response.status_code)   
-
-    body = {
-        "message": "success"
-    }
+        message = "error"
 
     response = {
         "statusCode": 200,
-        "body": json.dumps(body)
+        "body": json.dumps({
+            "message": message
+        })
     }
 
     return response
